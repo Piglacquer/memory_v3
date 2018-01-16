@@ -11,38 +11,37 @@ Make a local database and setup a `knexfile` to connect to it.
 Make a migration that creates the following database table:
 
 `game`
-| key | name       | data type                 |
+| key | name | data type |
 | --- | ---------- | ------------------------- |
-| PK  | id         | auto-incrementing integer |
-|     | name       | text                      |
-|     | developer  | text                      |
-|     | rating     | float                     |
+| PK | id | auto-incrementing integer |
+| | name | text |
+| | developer | text |
+| | rating | float |
 
 ### Seed
 
 Seed your database with some data:
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 1                 |
-| name       | Breath of the Wild|
-| developer  | Nintendo          |
-| rating     | 8.5               |
+| field     | value              |
+| --------- | ------------------ |
+| id        | 1                  |
+| name      | Breath of the Wild |
+| developer | Nintendo           |
+| rating    | 8.5                |
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 2                 |
-| name       | Fez               |
-| developer  | Polytron          |
-| rating     | 7.4               |
+| field     | value    |
+| --------- | -------- |
+| id        | 2        |
+| name      | Fez      |
+| developer | Polytron |
+| rating    | 7.4      |
 
-| field      | value             |
-| ---------- | ----------------- |
-| id         | 3                 |
-| name       | Fez               |
-| developer  | Demruth           |
-| rating     | 8.1               |
-
+| field     | value   |
+| --------- | ------- |
+| id        | 3       |
+| name      | Fez     |
+| developer | Demruth |
+| rating    | 8.1     |
 
 Make sure your next auto-incrementing integer starts with `4`!
 
@@ -68,4 +67,4 @@ Deploy this API. Note that you'll need to create a remote database, run your mig
 
 * You can test your API locally with `npm test`
 
-Add a link to your [deployed API]() here.
+Add a link to your https://evening-lowlands-39152.herokuapp.com/games
