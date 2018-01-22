@@ -1,7 +1,7 @@
 module.exports = {
 	development: {
 		client: 'pg',
-		connection: 'postgres:///3000'
+		connection: 'postgres:///memory_v3'
 	},
 	production: {
 		client: 'pg',
